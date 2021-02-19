@@ -10,16 +10,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      // title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      supportedLocales: [
-        const Locale('zh', 'CN'),
-        const Locale('en', 'US'),
-      ],
-    
+      locale: Locale('en-US'),
       onGenerateRoute: router.generateRoute,
       debugShowCheckedModeBanner: false,
       initialRoute: 'homepage',

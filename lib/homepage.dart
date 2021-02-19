@@ -30,6 +30,16 @@ class _HomePageState extends State<HomePage> {
                 padding: EdgeInsets.only(left:16,top:18,bottom:18),
                 child:Text('markdown 富文本')
               )
+            ),
+             GestureDetector(
+              onTap:(){
+                Navigator.pushNamed(context, 'textFieldPage');
+              },
+              child:Container(
+                color: Colors.cyan,
+                padding: EdgeInsets.only(left:16,top:18,bottom:18),
+                child:Text('文本输入框')
+              )
             )
           ],
         ),

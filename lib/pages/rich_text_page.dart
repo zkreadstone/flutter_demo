@@ -12,6 +12,9 @@ class _RichTextPageState extends State<RichTextPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: new AppBar(
+          title: Text('富文本展示列表'),
+        ),
       body:Container(
         width: MediaQuery.of(context).size.width,height: MediaQuery.of(context).size.height,
         padding: EdgeInsets.only(top:120,left: 20,right:20),

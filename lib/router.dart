@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo/homepage.dart';
-import 'package:flutter_demo/pages/rich_text_page.dart'; 
+import 'package:flutter_demo/pages/rich_text_page.dart';
+import 'package:flutter_demo/pages/text_filed_page.dart'; 
 
-/**
+/*
   路由引入
  */ 
 
@@ -12,6 +13,7 @@ Map<String, WidgetBuilder> routers = {
    */
   'homepage': (context) => HomePage(), 
   'richTextPage': (context) => RichTextPage(), 
+  'textFieldPage': (context) => TextFieldPage(), 
 };
 
 Route<dynamic> generateRoute(RouteSettings settings) {
