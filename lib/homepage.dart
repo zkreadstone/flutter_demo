@@ -14,7 +14,7 @@ class _HomePageState extends State<HomePage> {
       debugShowCheckedModeBanner: false,
       home: new Scaffold(
         appBar: new AppBar(
-          title: Text('功能列表 测试--'),
+          title: Text('功能列表'),
         ),
         body: Container(
         width:MediaQuery.of(context).size.width,
